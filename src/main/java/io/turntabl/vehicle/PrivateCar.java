@@ -11,8 +11,6 @@ public class PrivateCar extends Vehicle{
     public PrivateCar(String numberPlate, List<Person> owners) {
         super(BASE_CHARGE, numberPlate, owners, VEHICLE_TYPE);
     }
-
-
     @Override
     public double getTotalCharge() {
         return getBaseCharge();
