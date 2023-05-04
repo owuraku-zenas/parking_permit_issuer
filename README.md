@@ -1,6 +1,4 @@
 # Parking Permit Issuer
-<hr>
-
 A local town is looking to task your group with creating an application that will oversee
 provisioning parking permits. The tools and infrastructure are in place, the front-end will be
 created by another team. Your team needs to provide a solution for the Java-based middle
