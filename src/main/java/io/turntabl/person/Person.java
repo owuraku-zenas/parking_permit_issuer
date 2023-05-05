@@ -3,12 +3,16 @@ package io.turntabl.person;
 import java.util.Objects;
 
 public class Person {
-    private String id;
-    private String name;
+    private final String id;
+    private final String name;
 
     public Person(String id, String name) {
         this.id = id;
         this.name = name;
+    }
+
+    public String getName() {
+        return name;
     }
 
     @Override
